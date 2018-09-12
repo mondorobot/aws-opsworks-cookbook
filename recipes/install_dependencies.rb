@@ -1,1 +1,2 @@
-include_recipe 'nodejs::default'
+include_recipe 'nodejs'
+include_recipe 'git'
