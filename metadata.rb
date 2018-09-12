@@ -19,5 +19,4 @@ chef_version '>= 12.14' if respond_to?(:chef_version)
 #
 # source_url 'https://github.com/<insert_org_here>/aws-opsworks-cookbook'
 
-depends "application", "5.0.0"
 depends 'nodejs', '~> 5.0.0'
